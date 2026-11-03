@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# results written by the scripts
+out/
+
+# digitized experimental data (not distributed, see data/README.md)
+data/*
+!data/README.md
