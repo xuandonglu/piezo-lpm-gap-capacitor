@@ -1,4 +1,4 @@
-"""Two-window frame of Section 3.4: geometry of the uncracked frame, its boundary edges and the load pad.
+"""Two-window frame: geometry of the uncracked frame, its boundary edges and the load pad.
 
 The frame is a 20 mm square with two windows at x = 5..9 and 11..15 mm, y = 5..15 mm, which leave a central
 ligament 2 mm wide.

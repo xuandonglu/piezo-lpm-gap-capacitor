@@ -1,4 +1,4 @@
-"""Lattice paths of staircase cracks (Section 3.2): a straight crack inclined to the lattice and a circular arc,
+"""Lattice paths of staircase cracks: a straight crack inclined to the lattice and a circular arc,
 represented by 4-connected paths along cell edges."""
 import numpy as np
 

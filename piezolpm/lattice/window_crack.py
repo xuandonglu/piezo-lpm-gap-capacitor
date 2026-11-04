@@ -1,4 +1,4 @@
-"""Two-window frame with a zero-width crack growing from the left window into the central ligament (Section 3.4).
+"""Two-window frame with a zero-width crack growing from the left window into the central ligament.
 
 For width = 20 mm the windows are x = 5..9 and 11..15 mm, y = 5..15 mm.  The crack starts at (9, 10) mm and grows
 horizontally into, but not through, the 2 mm central ligament.  Lower and upper open-face particles have separate

@@ -1,1 +1,1 @@
-"""Sharp-crack reference solutions of the numerical cases (Section 3)."""
+"""Sharp-crack reference solutions of the numerical cases."""

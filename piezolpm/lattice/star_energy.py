@@ -9,7 +9,7 @@ Nine dimensionless coordinates times parameter_scales give the physical constant
 [C11_2D, C22_2D, C12_2D, C66_2D, e15, e31, e33, kappa11, kappa22]; the first four correspond to the 3D
 C11/C33/C13/C55, respectively, and kappa is absolute (F/m).  Scope: homogeneous axis-aligned orthotropic
 material in plane strain, poled along y, square one-shell lattice, zero-width cracks.  The default constants are
-those of the numerical cases (Table 1 of the paper).  Energies and gradients are evaluated by index-add operations
+those of the numerical cases.  Energies and gradients are evaluated by index-add operations
 on the bond/star incidence; the case scripts extract the sparse matrix from the gradient where a direct solver
 is used.
 """

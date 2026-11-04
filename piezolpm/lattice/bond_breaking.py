@@ -4,7 +4,7 @@ The star energy is that of star_energy.PiezoMessageGraph, term by term:
   star_scale * [ sum_b (1/2 spring ell^2 + eta ny ell delta - 1/2 beta delta^2)
                  + 1/2 tv (sa^2 + sd^2) + alpha sa p ],
   sa = sum_axial ell, sd = sum_diag ell, p = sum_axial ny delta.
-It is checked against star_energy.PiezoMessageGraph on intact meshes (section3/s31_straight_crack/check_assembly.py).
+It is checked against star_energy.PiezoMessageGraph on intact meshes (numerical_cases/straight_crack/check_assembly.py).
 
 Two additions needed for bond breaking:
   * a broken pair is removed from both stars; its directions are completed by the same-side

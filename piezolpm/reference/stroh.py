@@ -93,7 +93,7 @@ if __name__ == '__main__':
     Hiso, _ = stroh_H(gen_tensor(lam+2*mu, lam+2*mu, lam, mu, 0, 0, 0, 1e-8, 1e-8))
     print('isotropic H22 =', Hiso[1, 1], ' expected', 4*(1-nu**2)/E)
 
-    # constants of the numerical cases (Table 1): C11, C22 (=C33), C12 (=C13), C66 (=C44), e15, e31, e33, k11, k22
+    # constants of the numerical cases: C11, C22 (=C33), C12 (=C13), C66 (=C44), e15, e31, e33, k11, k22
     P = dict(C11=139e9, C33=115e9, C13=74.3e9, C44=25.6e9, e15=12.7, e31=-5.2, e33=15.1,
              k11=EPS0*730, k33=EPS0*635)
     Cg = gen_tensor(**P)
